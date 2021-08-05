@@ -725,7 +725,7 @@ service profiler_daemon /system/bin/profiler_daemon
     group root
     disabled
 
-service charger /sbin/chargeonlymode
+service charger /bin/chargeonlymode
     class charger
     group system graphics
     capabilities SYS_BOOT
